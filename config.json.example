@@ -1,0 +1,7 @@
+{
+    "profile":"example-profile",
+    "region":"us-west-1",
+    "wg_conf_file":"./wg0.conf",
+    "wg_port": 51820,
+    "ssh_key_path":"/vpn/private-key"
+}

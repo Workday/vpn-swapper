@@ -1,0 +1,8 @@
+*tfstate*
+.terraform
+privkey
+theplan
+errors
+__pycache__
+config.json
+vpn.key

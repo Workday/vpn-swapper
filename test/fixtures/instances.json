@@ -1,0 +1,268 @@
+{
+    "Reservations": [
+        {
+            "Groups": [],
+            "Instances": [
+                {
+                    "AmiLaunchIndex": 0,
+                    "ImageId": "ami-0d705db840ec5f0c5",
+                    "InstanceId": "i-002e265a9fad431a4",
+                    "InstanceType": "t2.micro",
+                    "KeyName": "nick-test-key",
+                    "LaunchTime": "2020-07-11T19:12:46+00:00",
+                    "Monitoring": {
+                        "State": "enabled"
+                    },
+                    "Placement": {
+                        "AvailabilityZone": "us-west-1a",
+                        "GroupName": "",
+                        "Tenancy": "default"
+                    },
+                    "PrivateDnsName": "ip-10-13-37-72.us-west-1.compute.internal",
+                    "PrivateIpAddress": "10.13.37.72",
+                    "ProductCodes": [],
+                    "PublicDnsName": "",
+                    "PublicIpAddress": "54.67.116.79",
+                    "State": {
+                        "Code": 16,
+                        "Name": "running"
+                    },
+                    "StateTransitionReason": "",
+                    "SubnetId": "subnet-05782934be6f2602e",
+                    "VpcId": "vpc-058619ea8008d8cf1",
+                    "Architecture": "x86_64",
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/sda1",
+                            "Ebs": {
+                                "AttachTime": "2020-07-11T19:12:47+00:00",
+                                "DeleteOnTermination": true,
+                                "Status": "attached",
+                                "VolumeId": "vol-0e81118abab49b3e5"
+                            }
+                        }
+                    ],
+                    "ClientToken": "a225ccfd-2d1f-9e28-4b9e-685d251e7905",
+                    "EbsOptimized": false,
+                    "EnaSupport": true,
+                    "Hypervisor": "xen",
+                    "NetworkInterfaces": [
+                        {
+                            "Association": {
+                                "IpOwnerId": "amazon",
+                                "PublicDnsName": "",
+                                "PublicIp": "54.67.116.79"
+                            },
+                            "Attachment": {
+                                "AttachTime": "2020-07-11T19:12:46+00:00",
+                                "AttachmentId": "eni-attach-0f16604899472f8a3",
+                                "DeleteOnTermination": true,
+                                "DeviceIndex": 0,
+                                "Status": "attached"
+                            },
+                            "Description": "",
+                            "Groups": [
+                                {
+                                    "GroupName": "allow_ssh_sg",
+                                    "GroupId": "sg-0eaf0ca09d6b9e0c3"
+                                }
+                            ],
+                            "Ipv6Addresses": [],
+                            "MacAddress": "02:ac:fd:e8:0b:03",
+                            "NetworkInterfaceId": "eni-0f9552e78b9a9c82b",
+                            "OwnerId": "519397415346",
+                            "PrivateIpAddress": "10.13.37.72",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Association": {
+                                        "IpOwnerId": "amazon",
+                                        "PublicDnsName": "",
+                                        "PublicIp": "54.67.116.79"
+                                    },
+                                    "Primary": true,
+                                    "PrivateIpAddress": "10.13.37.72"
+                                }
+                            ],
+                            "SourceDestCheck": true,
+                            "Status": "in-use",
+                            "SubnetId": "subnet-05782934be6f2602e",
+                            "VpcId": "vpc-058619ea8008d8cf1",
+                            "InterfaceType": "interface"
+                        }
+                    ],
+                    "RootDeviceName": "/dev/sda1",
+                    "RootDeviceType": "ebs",
+                    "SecurityGroups": [
+                        {
+                            "GroupName": "allow_ssh_sg",
+                            "GroupId": "sg-0eaf0ca09d6b9e0c3"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "Tags": [
+                        {
+                            "Key": "aws:autoscaling:groupName",
+                            "Value": "vpn-asg-20200709171836663100000002"
+                        },
+                        {
+                            "Key": "Name",
+                            "Value": "vpn-asg"
+                        }
+                    ],
+                    "VirtualizationType": "hvm",
+                    "CpuOptions": {
+                        "CoreCount": 1,
+                        "ThreadsPerCore": 1
+                    },
+                    "CapacityReservationSpecification": {
+                        "CapacityReservationPreference": "open"
+                    },
+                    "HibernationOptions": {
+                        "Configured": false
+                    },
+                    "MetadataOptions": {
+                        "State": "applied",
+                        "HttpTokens": "optional",
+                        "HttpPutResponseHopLimit": 1,
+                        "HttpEndpoint": "enabled"
+                    }
+                }
+            ],
+            "OwnerId": "519397415346",
+            "RequesterId": "802156063200",
+            "ReservationId": "r-0ed07fd32e27fa858"
+        },
+        {
+            "Groups": [],
+            "Instances": [
+                {
+                    "AmiLaunchIndex": 0,
+                    "ImageId": "ami-0d705db840ec5f0c5",
+                    "InstanceId": "i-01734acd389b1d9e7",
+                    "InstanceType": "t2.micro",
+                    "KeyName": "nick-test-key",
+                    "LaunchTime": "2020-07-11T19:14:45+00:00",
+                    "Monitoring": {
+                        "State": "enabled"
+                    },
+                    "Placement": {
+                        "AvailabilityZone": "us-west-1a",
+                        "GroupName": "",
+                        "Tenancy": "default"
+                    },
+                    "PrivateDnsName": "ip-10-13-37-40.us-west-1.compute.internal",
+                    "PrivateIpAddress": "10.13.37.40",
+                    "ProductCodes": [],
+                    "PublicDnsName": "",
+                    "PublicIpAddress": "13.56.160.4",
+                    "State": {
+                        "Code": 16,
+                        "Name": "running"
+                    },
+                    "StateTransitionReason": "",
+                    "SubnetId": "subnet-05782934be6f2602e",
+                    "VpcId": "vpc-058619ea8008d8cf1",
+                    "Architecture": "x86_64",
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/sda1",
+                            "Ebs": {
+                                "AttachTime": "2020-07-11T19:14:46+00:00",
+                                "DeleteOnTermination": true,
+                                "Status": "attached",
+                                "VolumeId": "vol-0894a57d9209e59cd"
+                            }
+                        }
+                    ],
+                    "ClientToken": "e5e5ccfd-3465-c500-a3f1-fe9f7864a57c",
+                    "EbsOptimized": false,
+                    "EnaSupport": true,
+                    "Hypervisor": "xen",
+                    "NetworkInterfaces": [
+                        {
+                            "Association": {
+                                "IpOwnerId": "amazon",
+                                "PublicDnsName": "",
+                                "PublicIp": "13.56.160.4"
+                            },
+                            "Attachment": {
+                                "AttachTime": "2020-07-11T19:14:45+00:00",
+                                "AttachmentId": "eni-attach-043689c9beecd0d45",
+                                "DeleteOnTermination": true,
+                                "DeviceIndex": 0,
+                                "Status": "attached"
+                            },
+                            "Description": "",
+                            "Groups": [
+                                {
+                                    "GroupName": "allow_ssh_sg",
+                                    "GroupId": "sg-0eaf0ca09d6b9e0c3"
+                                }
+                            ],
+                            "Ipv6Addresses": [],
+                            "MacAddress": "02:c7:f0:b4:4d:ab",
+                            "NetworkInterfaceId": "eni-0a4e092cdbcf76617",
+                            "OwnerId": "519397415346",
+                            "PrivateIpAddress": "10.13.37.40",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Association": {
+                                        "IpOwnerId": "amazon",
+                                        "PublicDnsName": "",
+                                        "PublicIp": "13.56.160.4"
+                                    },
+                                    "Primary": true,
+                                    "PrivateIpAddress": "10.13.37.40"
+                                }
+                            ],
+                            "SourceDestCheck": true,
+                            "Status": "in-use",
+                            "SubnetId": "subnet-05782934be6f2602e",
+                            "VpcId": "vpc-058619ea8008d8cf1",
+                            "InterfaceType": "interface"
+                        }
+                    ],
+                    "RootDeviceName": "/dev/sda1",
+                    "RootDeviceType": "ebs",
+                    "SecurityGroups": [
+                        {
+                            "GroupName": "allow_ssh_sg",
+                            "GroupId": "sg-0eaf0ca09d6b9e0c3"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "Tags": [
+                        {
+                            "Key": "Name",
+                            "Value": "vpn-asg"
+                        },
+                        {
+                            "Key": "aws:autoscaling:groupName",
+                            "Value": "vpn-asg-20200709171836663100000002"
+                        }
+                    ],
+                    "VirtualizationType": "hvm",
+                    "CpuOptions": {
+                        "CoreCount": 1,
+                        "ThreadsPerCore": 1
+                    },
+                    "CapacityReservationSpecification": {
+                        "CapacityReservationPreference": "open"
+                    },
+                    "HibernationOptions": {
+                        "Configured": false
+                    },
+                    "MetadataOptions": {
+                        "State": "applied",
+                        "HttpTokens": "optional",
+                        "HttpPutResponseHopLimit": 1,
+                        "HttpEndpoint": "enabled"
+                    }
+                }
+            ],
+            "OwnerId": "519397415346",
+            "RequesterId": "802156063200",
+            "ReservationId": "r-095ce0254219e18af"
+        }
+    ]
+}
